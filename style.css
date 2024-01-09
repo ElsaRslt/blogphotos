@@ -1,0 +1,66 @@
+/*remise à niveau du style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*style du Header*/
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+li:hover {
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+/*style du footer*/
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo-footer{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+}
