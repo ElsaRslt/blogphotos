@@ -18,6 +18,11 @@ html{
     scroll-behavior: smooth;
 }
 
+.flux {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 /*style du Header*/
 
 .logo{
@@ -34,13 +39,14 @@ ul{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     
 }
 
 li:hover {
-    color: blue;
+    color: #048B9A;
     font-size: 20px;
+    text-transform: uppercase;
 
 }
 

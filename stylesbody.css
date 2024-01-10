@@ -1,46 +1,78 @@
-#slider { 
-    width: 80%; 
-    max-width: 1000px;
-}
-
-#slider figure img { 
-    width: 20%; 
-    height: auto; 
-    float: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#slider { 
-    width: 80%; 
-    max-width: 1000px; 
-    overflow: hidden }
-
-@keyframes slidy {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
-}
-
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    left: 0;
+.title-h1{
     text-align: center;
-    animation: 20s slidy infinite;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #048B9A;
+    margin-top: 50px;
+
 }
 
-.presentation {
+.presentation-text-image{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.presentation-text-image img{
+    width: 30%;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: bottom; 
+    margin-bottom: 20px;
+}
+
+.article{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-article{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.article div {
     text-align: center;
-    justify-content: center;
+    line-height: 1.5;
+}
+
+.bouton-lien {
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color:white;
+    font-size: 10px;
+}
+
+.bouton-lien:hover{
+    background-color: #048B9A;
+    color: white;
+    transition: all 2s;
+}
+
+.title-h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    margin-top: 15px
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }

@@ -1,0 +1,41 @@
+.gallery {
+    --s: 200px; 
+    --g: 10px;  
+    --f: 1.5;
+    display: grid;
+    gap: var(--g);
+    width: calc(3*var(--s) + 2*var(--g));
+    aspect-ratio: 1;
+    grid-template-columns: repeat(3,auto);
+}
+
+.gallery img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    width:200px ;
+    height: 200px;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+section {
+    display: grid;
+    place-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.title-h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #048B9A;
+}
